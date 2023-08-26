@@ -21,13 +21,15 @@ This repository contains the configuration files for AstroVim, a highly customiz
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ForAeons/astronvim_config.git ~/.config/nvim
+   git clone https://github.com/ForAeons/astronvim_config.git ~/.config/nvim/lua/user
+
    ```
 
-2. Open Vim and install the plugins:
+2. Initlialize AstroNvim:
 
    ```bash
-   :PlugInstall
+   nvim  --headless -c 'quitall'
+
    ```
 
 ## Usage
@@ -37,10 +39,6 @@ Open Vim and enjoy the new setup!
 ## Contributing
 
 Feel free to fork the repository and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
