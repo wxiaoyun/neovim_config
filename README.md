@@ -18,14 +18,21 @@ This repository contains the configuration files for AstroVim, a highly customiz
 
 ## Installation
 
-1. Clone the repository:
+1. Clone AstroNvim:
+
+   ```bash
+   git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+
+   ```
+
+2. Clone the repository:
 
    ```bash
    git clone https://github.com/ForAeons/astronvim_config.git ~/.config/nvim/lua/user
 
    ```
 
-2. Initlialize AstroNvim:
+3. Initlialize AstroNvim:
 
    ```bash
    nvim  --headless -c 'quitall'
