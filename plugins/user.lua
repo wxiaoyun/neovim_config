@@ -14,6 +14,7 @@ return {
   },
   { -- Harpoon
     "ThePrimeagen/harpoon",
+    event = { "BufReadPre", "BufNewFile" },
     dependencies = {
       "nvim-lua/plenary.nvim",
     },
@@ -35,5 +36,9 @@ return {
         { desc = "Go to previous harpoon mark" }
       )
     end,
+  },
+  {
+    "github/copilot.vim",
+    event = { "BufReadPre", "BufNewFile" },
   }
 }
