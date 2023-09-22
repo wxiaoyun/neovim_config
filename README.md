@@ -7,13 +7,17 @@ This repository contains the configuration files for AstroVim, a highly customiz
 ## Features
 
 - Plugin Management
+- Lazy Loading of Plugins
 - Custom Keybindings
-- Efficient Navigation
+- Language Servers, Linters, Formatters from Mason
+- Syntax Highlighting from Treesitter
+- Fuzzy Finding from Telescope
+- Efficient Navigation using Harpoon
 - And more...
 
 ## Prerequisites
 
-- Vim or Neovim installed
+- [Neovim](https://github.com/neovim/neovim) installed
 - Lua support
 
 ## Installation
@@ -21,24 +25,21 @@ This repository contains the configuration files for AstroVim, a highly customiz
 1. Clone AstroNvim:
 
    ```bash
-   git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-
+   git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim # Linux, macOS or WSL
    ```
 
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/ForAeons/astronvim_config.git ~/.config/nvim/lua/user
-
+   git clone https://github.com/ForAeons/astronvim_config.git ~/.config/nvim/lua/user # Linux, macOS or WSL
    ```
 
 3. Initlialize AstroNvim:
 
    ```bash
    nvim  --headless -c 'quitall'
-
    ```
 
 ## Usage
 
-Open Vim and enjoy the new setup!
+Open NeoVim and enjoy the new setup!
