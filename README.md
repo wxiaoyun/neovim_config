@@ -42,17 +42,3 @@ This repository contains the configuration files for AstroVim, a highly customiz
 ## Usage
 
 Open Vim and enjoy the new setup!
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests.
-
----
-
-### Thought-Provoking Questions
-
-1. **Extensibility**: How easy is it to add new plugins or features to this configuration?
-2. **Performance**: Are there any performance bottlenecks that could be optimized?
-3. **User Experience**: How user-friendly is the configuration for someone new to Vim or AstroVim?
-
-Feel free to modify the README according to your project's specific needs.
