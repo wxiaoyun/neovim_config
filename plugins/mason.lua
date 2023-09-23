@@ -1,7 +1,8 @@
 return {
-  "williamboman/mason.nvim",
-  opts = {
-    ensure_installed = {
+  {
+    "williamboman/mason-lspconfig.nvim",
+    opts = {
+      ensure_installed = {
       -- LSPs
       "bashls",
       "clangd",
@@ -9,15 +10,22 @@ return {
       "dockerls",
       "eslint",
       "gopls",
-      "golangci-lint-ls",
+      "golangci_lint_ls",
       "html",
       "jsonls",
       "jdtls",
       "tsserver",
       "lua_ls",
-      "sqls",
+      "sqlls",
       "svelte",
       "tailwindcss",
+      }
+    }
+  },
+  {
+    "jay-babu/mason-null-ls.nvim",
+    opts = {
+      ensure_installed = {
       -- Formatters
       "prettier",
       "gofumpt",
@@ -26,6 +34,7 @@ return {
       -- Linters
       "eslint_d",
       "golangci-lint",
+      }
     }
-  }
+  },
 }
