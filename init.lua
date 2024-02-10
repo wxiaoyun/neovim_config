@@ -1,69 +1,10 @@
+vim.o.guifont = 'FiraCode Nerd Font Mono:h16'
+vim.g.transparency = 0.9
+vim.g.neovide_window_blurred = true
+vim.g.neovide_refresh_rate = 120
+vim.g.neovide_no_idle = true
+vim.g.neovide_cursor_vfx_mode = "pixiedust"
+
 return {
   colorscheme = 'tokyonight',
-  icons = {
-    ActiveLSP = "",
-    ActiveTS = " ",
-    BufferClose = "",
-    DapBreakpoint = "",
-    DapBreakpointCondition = "",
-    DapBreakpointRejected = "",
-    DapLogPoint = "",
-    DapStopped = "",
-    DefaultFile = "",
-    Diagnostic = "",
-    DiagnosticError = "",
-    DiagnosticHint = "",
-    DiagnosticInfo = "",
-    DiagnosticWarn = "",
-    Ellipsis = "",
-    FileModified = "",
-    FileReadOnly = "",
-    FoldClosed = "",
-    FoldOpened = "",
-    FolderClosed = "",
-    FolderEmpty = "",
-    FolderOpen = "",
-    Git = "",
-    GitAdd = "",
-    GitBranch = "",
-    GitChange = "",
-    GitConflict = "",
-    GitDelete = "",
-    GitIgnored = "",
-    GitRenamed = "",
-    GitStaged = "",
-    GitUnstaged = "",
-    GitUntracked = "",
-    LSPLoaded = "",
-    LSPLoading1 = "",
-    LSPLoading2 = "",
-    LSPLoading3 = "",
-    MacroRecording = "",
-    Paste = "",
-    Search = "",
-    Selected = "",
-    TabClose = "",
-  },
-  plugins = {
-    {
-      "onsails/lspkind.nvim",
-      opts = function(_, opts)
-        -- use codicons preset
-        opts.preset = "codicons"
-        -- set some missing symbol types
-        opts.symbol_map = {
-          Array = "",
-          Boolean = "",
-          Key = "",
-          Namespace = "",
-          Null = "",
-          Number = "",
-          Object = "",
-          Package = "",
-          String = "",
-        }
-        return opts
-      end,
-    },
-  },
 }
