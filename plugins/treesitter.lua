@@ -21,7 +21,6 @@ return {
       "tsx",
       "yaml",
       "sql",
-      "svelte"
     },
     incremental_selection = {
       enable = true,
