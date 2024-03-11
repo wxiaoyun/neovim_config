@@ -1,5 +1,5 @@
 vim.opt.list = true
-vim.opt.listchars = { tab = ">\\ ", trail = "-", eol = "󱞥" }
+vim.opt.listchars = { eol = "󱞥" }
 
 return {
   colorscheme = "tokyonight-night",
