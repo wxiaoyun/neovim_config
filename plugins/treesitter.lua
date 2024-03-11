@@ -2,10 +2,10 @@ return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
     ensure_installed = {
-      "bash",
       "c",
       "cpp",
       "css",
+      "bash",
       "dockerfile",
       "html",
       "json",
@@ -19,8 +19,10 @@ return {
       "lua",
       "rust",
       "tsx",
-      "yaml",
       "sql",
+      "make",
+      "toml",
+      "yaml",
     },
     incremental_selection = {
       enable = true,
@@ -31,5 +33,5 @@ return {
         node_decremental = "<BS>",
       },
     },
-  }
+  },
 }
