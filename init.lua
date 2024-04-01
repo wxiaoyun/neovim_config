@@ -17,15 +17,3 @@ end
 
 require "lazy_setup"
 require "polish"
-
-vim.opt.list = true
-vim.opt.listchars = { tab = "\\ ", eol = "󱞥" }
-
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.expandtab = true
-vim.bo.softtabstop = 2
-
-vim.opt.scrolloff = 8
-
-vim.cmd "colorscheme tokyonight-night"
