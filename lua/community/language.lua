@@ -1,3 +1,4 @@
+---@type LazySpec
 return {
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.cpp" },
