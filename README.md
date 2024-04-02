@@ -22,17 +22,10 @@ This repository contains the configuration files for AstroVim, a highly customiz
 
 ## Installation
 
-#### Clone AstroNvim
-
-```shell
-git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-nvim
-```
-
 #### Clone the repository
 
 ```shell
-git clone https://github.com/ForAeons/astronvim_config.git ~/.config/nvim
+git clone --depth 1 https://github.com/ForAeons/astronvim_config.git ~/.config/nvim
 ```
 
 #### Start Neovim
