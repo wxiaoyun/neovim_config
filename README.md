@@ -1,19 +1,4 @@
-# AstroVim Configuration
-
-## Overview
-
-This repository contains the configuration files for AstroVim, a highly customizable Vim setup. The configuration is written in Lua and aims to provide an efficient and user-friendly Vim experience.
-
-## Features
-
-- Plugin Management
-- Lazy Loading of Plugins
-- Custom Keybindings
-- Language Servers, Linters, Formatters from Mason
-- Syntax Highlighting from Treesitter
-- Fuzzy Finding from Telescope
-- Efficient Navigation using Harpoon
-- And more...
+# NeoVim Configuration
 
 ## Prerequisites
 
