@@ -10,7 +10,7 @@
 #### Clone the repository
 
 ```shell
-git clone --depth 1 https://github.com/ForAeons/astronvim_config.git ~/.config/nvim
+git clone --depth 1 https://github.com/ForAeons/neovim_config.git ~/.config/nvim
 ```
 
 #### Start Neovim
