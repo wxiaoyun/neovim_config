@@ -7,12 +7,13 @@ if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 -- Set up custom filetypes
 vim.filetype.add {
   extension = {
-    foo = "fooscript",
+    rst = "rustscript",
+    o2 = "rustscript_bytecode",
   },
   filename = {
-    ["Foofile"] = "fooscript",
+    ["rustscript"] = "rustscript",
   },
   pattern = {
-    ["~/%.config/foo/.*"] = "fooscript",
+    ["~/%.config/rustscript/.*"] = "rustscript",
   },
 }
