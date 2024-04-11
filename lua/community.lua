@@ -6,5 +6,4 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "community" },
-  -- import/override with your plugins folder
 }
