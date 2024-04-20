@@ -29,14 +29,14 @@ return {
       "yaml",
       -- add more arguments for adding more treesitter parsers
     })
-    opts.incremental_selection = {
-      enable = true,
-      keymaps = {
-        init_selection = "<c-space>",
-        node_incremental = "<c-space>",
-        scope_incremental = "<c-space>",
-        node_decremental = "<bs>",
-      },
-    }
+    -- opts.incremental_selection = {
+    --   enable = true,
+    --   keymaps = {
+    --     init_selection = "<C-space>",
+    --     node_incremental = "<C-space>",
+    --     scope_incremental = "<C-space>",
+    --     node_decremental = "<BS>",
+    --   },
+    -- }
   end,
 }
