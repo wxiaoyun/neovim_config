@@ -35,7 +35,7 @@ return {
         init_selection = "<Leader><Leader>v",
         node_incremental = "u",
         scope_incremental = "U",
-        node_decremental = "d",
+        node_decremental = "<BS>",
       },
     }
   end,
