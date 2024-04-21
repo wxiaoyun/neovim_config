@@ -26,19 +26,19 @@ return {
     options = {
       opt = { -- vim.opt.<key>
         list = true,
-        listchars = { tab = "| ", space = "·", lead = " ", nbsp = "␣", eol = "󱞥" },
-        wrap = true, -- sets vim.opt.wrap
+        listchars = { tab = "··|", space = "·", trail = "·", nbsp = "␣", eol = "󱞥" },
 
         tabstop = 2,
         shiftwidth = 2,
         expandtab = true,
 
-        scrolloff = 10, -- arbitrary number to center cursor
         relativenumber = true, -- sets vim.opt.relativenumber
         number = true, -- sets vim.opt.number
-
         spell = false, -- sets vim.opt.spell
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
+        wrap = true, -- sets vim.opt.wrap
+
+        scrolloff = 8,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
