@@ -26,7 +26,7 @@ return {
     options = {
       opt = { -- vim.opt.<key>
         list = true,
-        listchars = { tab = "» ", trail = "·", nbsp = "␣", eol = "󱞥" },
+        listchars = { tab = "| ", trail = "·", nbsp = "␣", eol = "󱞥" },
 
         tabstop = 2,
         shiftwidth = 2,
