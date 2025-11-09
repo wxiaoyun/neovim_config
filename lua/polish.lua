@@ -3,15 +3,4 @@
 -- fit in the normal config locations above can go here
 
 -- Set up custom filetypes
-vim.filetype.add {
-  extension = {
-    rst = "rustscript",
-    o2 = "rustscript_bytecode",
-  },
-  filename = {
-    ["rustscript"] = "rustscript",
-  },
-  pattern = {
-    ["~/%.config/rustscript/.*"] = "rustscript",
-  },
-}
+vim.filetype.add {}
